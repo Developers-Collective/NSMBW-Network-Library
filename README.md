@@ -1,11 +1,19 @@
 # Network Library v1.0
 *network and ssl code by bushing, adjusted by MrBean35000vr and Chadderz for netslug-wii and adjusted again for use in NSMBW mods by Nin0*
+
 *http code by ibrahima, adjusted for use in NSMBW mods by Nin0*
 
+<br>
+
 *Orginal code can be found in [libogc](https://github.com/devkitPro/libogc/blob/master/libogc/network_wii.c)*
+
 *Adjusted version can be found [netslug-wii](https://github.com/MrBean35000vr/netslug-wii/blob/master/modules/netslug_main/network_wii.c)*
+
 *Original ssl code can be found on [wiibrew](https://wiibrew.org/wiki//dev/net/ssl/code)*
+
 *Original code for http requests can be found in the [wiihttp](https://github.com/ibrahima/wiihttp/tree/master) repo*
+
+<br>
 
 The library was tested with [NSMBWer+](https://github.com/Developers-Collective/NSMBWerPlus)!
 
