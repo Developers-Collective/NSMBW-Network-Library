@@ -1,0 +1,8 @@
+---
+source_files: [../src/network/network_wii.cpp, ../src/network/ssl.cpp]
+hooks:
+  - name: OnPlayerJumpTest
+    type: branch_insn
+    branch_type: b
+    src_addr_pal: 0x80127730
+    target_func: 'testNetwork(void)'
