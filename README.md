@@ -11,6 +11,9 @@
 
 The library was tested with [NSMBWer+](https://github.com/Developers-Collective/NSMBWerPlus)!
 
+## Important
+The Wii's SSL library does not support secure TLS versions. Not using any encryption and/or signatures may lead to RCE (remote code execution) potentially allowing people to brick a users Wii or even install Malware on it and other devices on a network. Discussion about encryption and signature scheme implementation is on going on NHD, Horizon, Evolution and the NSMLW Discord servers. Feel free to join us in coming up with solutions for these issues.
+
 ## Explanation
 This code allows to start TCP connections from within New Super Mario Bros. Wii! It further provides a simple code example how to download a file from a HTTP server. Downloading files over SSL/TLS is not directly supported, for reasons listed below. However, this repo contains the SSL code found on wiibrew for completeness sake.
 
